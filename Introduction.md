@@ -10,7 +10,7 @@ authors:
     orcid: 0000-0003-3737-0972
     url: https://annastuckert.github.io
 abstract: |
-  This document provides an overview of the `ViT_Facemap` project, which applies Vision Transformers (ViT) for facial mapping. It explores the background of machine learning in emotional expression analysis and discusses the architecture and applications of Vision Transformers in image classification tasks.
+  ViT_Facemap is a project that utilizes Vision Transformers (ViT) for facial mapping. The project is primarily focused on the development and application of advanced machine learning models to detect and interpret facial features using ViT architectures. 
 exports:
   - format: tex
     template: volcanica
@@ -20,9 +20,6 @@ exports:
 #   template: volcanica
 #   article_type: Report
 ---
-
-
-`ViT_Facemap` is a project that utilizes Vision Transformers (ViT) for facial mapping. The project is primarily focused on the development and application of advanced machine learning models to detect and interpret facial features using ViT architectures. 
 
 
 ## Machine Learning in Emotional Expression Analysis
