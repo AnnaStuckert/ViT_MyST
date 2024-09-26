@@ -66,4 +66,4 @@ Currently average_RMSE is calculated over the entire test set during evaluation.
 
 Ultimate average RMSE and average PCK are used as metrics.
 
-Moreover the code currently also implementes accuracy as keypoints less then 4 pixels from the label. Currently the model is saved every time this accuracy is improved. This accuracy will be removed in favor of PCK and RMSE, and the model will be updated upon improvement in one of these metrics (to be decided)
+Moreover the code currently also implementes accuracy as keypoints less then 4 pixels from the label. This accuracy will be removed in favor of PCK and RMSE, and the model will be updated upon improvement in one of these metrics (to be decided) - cfor the time being the model is saved every XX epochs.
