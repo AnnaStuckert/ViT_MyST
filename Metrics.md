@@ -30,6 +30,8 @@ PCK is a metric used to measure the accuracy of keypoint predictions. It determi
   - `pck_results (dict)`: Dictionary of `image_name` to PCK values.
 - **Returns**: The average PCK value as a float.
 
+Currently average_PCK is calculated over the entire test set during evaluation. 
+
 ### 2. Root Mean Squared Error (RMSE)
 
 RMSE is a common metric used to measure the average magnitude of the error between predicted and true keypoints. It gives an overall sense of how much the predictions deviate from the actual keypoints.
@@ -54,6 +56,8 @@ RMSE is a common metric used to measure the average magnitude of the error betwe
 - **Arguments**:
   - `rmse_results (dict)`: Dictionary of `image_name` to RMSE values.
 - **Returns**: The average RMSE value as a float.
+
+Currently average_RMSE is calculated over the entire test set during evaluation. 
 
 ### Conclusion
 
