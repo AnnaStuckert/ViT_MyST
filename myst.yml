@@ -23,6 +23,7 @@ project:
     - file: Usage.md
     - file: Metrics.md
     - file: Acknowledgments.md
+    - file: Results.md
 
 site:
   template: book-theme
