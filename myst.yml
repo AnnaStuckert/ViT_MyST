@@ -24,6 +24,7 @@ project:
     - file: Metrics.md
     - file: Acknowledgments.md
     - file: Results.md
+    - file: SHAP values.md
 
 site:
   template: book-theme
